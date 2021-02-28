@@ -3,10 +3,6 @@ MsgBox,0,, This was made by Borny. (Press Ctrl+j to start deleting messages)
 
 InputBox, messages, How much messages do you want to delete?
 
-; send, {LWin}{r down}
-; send, shutdown /s
-; send, {Enter}
-
 Loop, %messages%
 {
     send, {BS}
